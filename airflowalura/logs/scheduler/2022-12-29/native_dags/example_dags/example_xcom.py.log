@@ -1,0 +1,35 @@
+[2022-12-29 09:57:15,075] {processor.py:153} INFO - Started process (PID=21710) to work on /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-29 09:57:15,082] {processor.py:641} INFO - Processing file /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-12-29 09:57:15,083] {logging_mixin.py:115} INFO - [2022-12-29 09:57:15,083] {dagbag.py:507} INFO - Filling up the DagBag from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-29 09:57:15,141] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-29 09:57:15,264] {logging_mixin.py:115} INFO - [2022-12-29 09:57:15,264] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-12-29 09:57:15,318] {logging_mixin.py:115} INFO - [2022-12-29 09:57:15,318] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-12-29 09:57:15,374] {processor.py:161} INFO - Processing /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.308 seconds
+[2022-12-29 09:58:01,824] {processor.py:153} INFO - Started process (PID=21797) to work on /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-29 09:58:01,849] {processor.py:641} INFO - Processing file /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-12-29 09:58:01,850] {logging_mixin.py:115} INFO - [2022-12-29 09:58:01,850] {dagbag.py:507} INFO - Filling up the DagBag from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-29 09:58:01,948] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-29 09:58:02,123] {logging_mixin.py:115} INFO - [2022-12-29 09:58:02,123] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-12-29 09:58:02,178] {logging_mixin.py:115} INFO - [2022-12-29 09:58:02,178] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-12-29 09:58:02,265] {processor.py:161} INFO - Processing /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.447 seconds
+[2022-12-29 09:58:57,090] {processor.py:153} INFO - Started process (PID=21900) to work on /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-29 09:58:57,095] {processor.py:641} INFO - Processing file /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-12-29 09:58:57,096] {logging_mixin.py:115} INFO - [2022-12-29 09:58:57,096] {dagbag.py:507} INFO - Filling up the DagBag from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-29 09:58:57,155] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-29 09:58:57,194] {logging_mixin.py:115} INFO - [2022-12-29 09:58:57,194] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-12-29 09:58:57,236] {logging_mixin.py:115} INFO - [2022-12-29 09:58:57,236] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-12-29 09:58:57,284] {processor.py:161} INFO - Processing /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.202 seconds
+[2022-12-29 09:59:53,195] {processor.py:153} INFO - Started process (PID=22000) to work on /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-29 09:59:53,204] {processor.py:641} INFO - Processing file /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-12-29 09:59:53,205] {logging_mixin.py:115} INFO - [2022-12-29 09:59:53,205] {dagbag.py:507} INFO - Filling up the DagBag from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-29 09:59:53,292] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-29 09:59:53,377] {logging_mixin.py:115} INFO - [2022-12-29 09:59:53,377] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-12-29 09:59:53,477] {logging_mixin.py:115} INFO - [2022-12-29 09:59:53,476] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-12-29 09:59:53,829] {processor.py:161} INFO - Processing /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.650 seconds
+[2022-12-29 10:01:09,631] {processor.py:153} INFO - Started process (PID=22350) to work on /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-29 10:01:09,666] {processor.py:641} INFO - Processing file /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-12-29 10:01:09,667] {logging_mixin.py:115} INFO - [2022-12-29 10:01:09,667] {dagbag.py:507} INFO - Filling up the DagBag from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-29 10:01:09,770] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-29 10:01:09,971] {logging_mixin.py:115} INFO - [2022-12-29 10:01:09,970] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-12-29 10:01:10,042] {logging_mixin.py:115} INFO - [2022-12-29 10:01:10,042] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-12-29 10:01:10,520] {processor.py:161} INFO - Processing /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.895 seconds

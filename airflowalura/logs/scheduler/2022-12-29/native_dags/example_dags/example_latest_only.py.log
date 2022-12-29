@@ -1,0 +1,35 @@
+[2022-12-29 09:57:28,572] {processor.py:153} INFO - Started process (PID=21738) to work on /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-29 09:57:28,579] {processor.py:641} INFO - Processing file /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-29 09:57:28,586] {logging_mixin.py:115} INFO - [2022-12-29 09:57:28,585] {dagbag.py:507} INFO - Filling up the DagBag from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-29 09:57:28,605] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-29 09:57:28,671] {logging_mixin.py:115} INFO - [2022-12-29 09:57:28,670] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-12-29 09:57:28,747] {logging_mixin.py:115} INFO - [2022-12-29 09:57:28,747] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2022-12-29T08:57:28.746340+00:00, run_after=2022-12-29T12:57:28.746340+00:00
+[2022-12-29 09:57:28,789] {processor.py:161} INFO - Processing /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.228 seconds
+[2022-12-29 09:58:18,220] {processor.py:153} INFO - Started process (PID=21825) to work on /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-29 09:58:18,223] {processor.py:641} INFO - Processing file /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-29 09:58:18,225] {logging_mixin.py:115} INFO - [2022-12-29 09:58:18,224] {dagbag.py:507} INFO - Filling up the DagBag from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-29 09:58:18,244] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-29 09:58:18,331] {logging_mixin.py:115} INFO - [2022-12-29 09:58:18,330] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-12-29 09:58:18,469] {logging_mixin.py:115} INFO - [2022-12-29 09:58:18,469] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2022-12-29T08:58:18.468497+00:00, run_after=2022-12-29T12:58:18.468497+00:00
+[2022-12-29 09:58:18,539] {processor.py:161} INFO - Processing /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.326 seconds
+[2022-12-29 09:59:12,351] {processor.py:153} INFO - Started process (PID=21933) to work on /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-29 09:59:12,363] {processor.py:641} INFO - Processing file /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-29 09:59:12,364] {logging_mixin.py:115} INFO - [2022-12-29 09:59:12,364] {dagbag.py:507} INFO - Filling up the DagBag from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-29 09:59:12,373] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-29 09:59:12,540] {logging_mixin.py:115} INFO - [2022-12-29 09:59:12,540] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-12-29 09:59:12,631] {logging_mixin.py:115} INFO - [2022-12-29 09:59:12,630] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2022-12-29T08:59:12.630019+00:00, run_after=2022-12-29T12:59:12.630019+00:00
+[2022-12-29 09:59:12,710] {processor.py:161} INFO - Processing /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.364 seconds
+[2022-12-29 10:00:31,340] {processor.py:153} INFO - Started process (PID=22161) to work on /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-29 10:00:31,345] {processor.py:641} INFO - Processing file /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-29 10:00:31,351] {logging_mixin.py:115} INFO - [2022-12-29 10:00:31,351] {dagbag.py:507} INFO - Filling up the DagBag from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-29 10:00:31,465] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-29 10:00:31,652] {logging_mixin.py:115} INFO - [2022-12-29 10:00:31,652] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-12-29 10:00:31,750] {logging_mixin.py:115} INFO - [2022-12-29 10:00:31,750] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2022-12-29T09:00:31.745147+00:00, run_after=2022-12-29T13:00:31.745147+00:00
+[2022-12-29 10:00:31,862] {processor.py:161} INFO - Processing /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.591 seconds
+[2022-12-29 10:01:39,037] {processor.py:153} INFO - Started process (PID=22487) to work on /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-29 10:01:39,050] {processor.py:641} INFO - Processing file /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-29 10:01:39,052] {logging_mixin.py:115} INFO - [2022-12-29 10:01:39,052] {dagbag.py:507} INFO - Filling up the DagBag from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-29 10:01:39,073] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-29 10:01:39,163] {logging_mixin.py:115} INFO - [2022-12-29 10:01:39,163] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-12-29 10:01:39,245] {logging_mixin.py:115} INFO - [2022-12-29 10:01:39,244] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2022-12-29T09:01:39.243947+00:00, run_after=2022-12-29T13:01:39.243947+00:00
+[2022-12-29 10:01:39,308] {processor.py:161} INFO - Processing /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.275 seconds

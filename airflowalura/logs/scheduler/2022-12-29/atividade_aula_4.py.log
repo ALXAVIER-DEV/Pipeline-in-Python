@@ -1,0 +1,49 @@
+[2022-12-29 09:56:52,473] {processor.py:153} INFO - Started process (PID=21662) to work on /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py
+[2022-12-29 09:56:52,475] {processor.py:641} INFO - Processing file /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py for tasks to queue
+[2022-12-29 09:56:52,476] {logging_mixin.py:115} INFO - [2022-12-29 09:56:52,476] {dagbag.py:507} INFO - Filling up the DagBag from /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py
+[2022-12-29 09:56:52,503] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py
+[2022-12-29 09:56:52,723] {logging_mixin.py:115} INFO - [2022-12-29 09:56:52,723] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-12-29 09:56:52,802] {logging_mixin.py:115} INFO - [2022-12-29 09:56:52,802] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2022-12-29T00:00:00+00:00, run_after=2022-12-30T00:00:00+00:00
+[2022-12-29 09:56:52,865] {processor.py:161} INFO - Processing /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py took 0.402 seconds
+[2022-12-29 09:57:44,079] {processor.py:153} INFO - Started process (PID=21762) to work on /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py
+[2022-12-29 09:57:44,124] {processor.py:641} INFO - Processing file /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py for tasks to queue
+[2022-12-29 09:57:44,125] {logging_mixin.py:115} INFO - [2022-12-29 09:57:44,125] {dagbag.py:507} INFO - Filling up the DagBag from /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py
+[2022-12-29 09:57:44,149] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py
+[2022-12-29 09:57:44,194] {logging_mixin.py:115} INFO - [2022-12-29 09:57:44,193] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-12-29 09:57:44,243] {logging_mixin.py:115} INFO - [2022-12-29 09:57:44,243] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2022-12-29T00:00:00+00:00, run_after=2022-12-30T00:00:00+00:00
+[2022-12-29 09:57:44,339] {processor.py:161} INFO - Processing /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py took 0.272 seconds
+[2022-12-29 09:58:30,197] {processor.py:153} INFO - Started process (PID=21843) to work on /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py
+[2022-12-29 09:58:31,045] {processor.py:641} INFO - Processing file /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py for tasks to queue
+[2022-12-29 09:58:31,056] {logging_mixin.py:115} INFO - [2022-12-29 09:58:31,056] {dagbag.py:507} INFO - Filling up the DagBag from /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py
+[2022-12-29 09:58:31,095] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py
+[2022-12-29 09:58:31,174] {logging_mixin.py:115} INFO - [2022-12-29 09:58:31,174] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-12-29 09:58:31,307] {logging_mixin.py:115} INFO - [2022-12-29 09:58:31,307] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2022-12-29T00:00:00+00:00, run_after=2022-12-30T00:00:00+00:00
+[2022-12-29 09:58:32,425] {processor.py:161} INFO - Processing /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py took 2.239 seconds
+[2022-12-29 09:59:16,161] {processor.py:153} INFO - Started process (PID=21937) to work on /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py
+[2022-12-29 09:59:16,218] {processor.py:641} INFO - Processing file /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py for tasks to queue
+[2022-12-29 09:59:16,220] {logging_mixin.py:115} INFO - [2022-12-29 09:59:16,219] {dagbag.py:507} INFO - Filling up the DagBag from /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py
+[2022-12-29 09:59:16,252] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py
+[2022-12-29 09:59:16,335] {logging_mixin.py:115} INFO - [2022-12-29 09:59:16,335] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-12-29 09:59:16,394] {logging_mixin.py:115} INFO - [2022-12-29 09:59:16,394] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2022-12-29T00:00:00+00:00, run_after=2022-12-30T00:00:00+00:00
+[2022-12-29 09:59:16,543] {processor.py:161} INFO - Processing /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py took 0.402 seconds
+[2022-12-29 10:00:11,864] {processor.py:153} INFO - Started process (PID=22096) to work on /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py
+[2022-12-29 10:00:11,900] {processor.py:641} INFO - Processing file /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py for tasks to queue
+[2022-12-29 10:00:11,902] {logging_mixin.py:115} INFO - [2022-12-29 10:00:11,901] {dagbag.py:507} INFO - Filling up the DagBag from /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py
+[2022-12-29 10:00:11,942] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py
+[2022-12-29 10:00:12,035] {logging_mixin.py:115} INFO - [2022-12-29 10:00:12,035] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-12-29 10:00:12,137] {logging_mixin.py:115} INFO - [2022-12-29 10:00:12,137] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2022-12-29T00:00:00+00:00, run_after=2022-12-30T00:00:00+00:00
+[2022-12-29 10:00:12,368] {processor.py:161} INFO - Processing /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py took 0.523 seconds
+[2022-12-29 10:00:56,601] {processor.py:153} INFO - Started process (PID=22295) to work on /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py
+[2022-12-29 10:00:56,631] {processor.py:641} INFO - Processing file /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py for tasks to queue
+[2022-12-29 10:00:56,637] {logging_mixin.py:115} INFO - [2022-12-29 10:00:56,637] {dagbag.py:507} INFO - Filling up the DagBag from /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py
+[2022-12-29 10:00:56,694] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py
+[2022-12-29 10:00:56,789] {logging_mixin.py:115} INFO - [2022-12-29 10:00:56,789] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-12-29 10:00:56,890] {logging_mixin.py:115} INFO - [2022-12-29 10:00:56,890] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2022-12-29T00:00:00+00:00, run_after=2022-12-30T00:00:00+00:00
+[2022-12-29 10:00:56,948] {processor.py:161} INFO - Processing /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py took 0.383 seconds
+[2022-12-29 10:01:53,264] {processor.py:153} INFO - Started process (PID=22678) to work on /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py
+[2022-12-29 10:01:53,271] {processor.py:641} INFO - Processing file /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py for tasks to queue
+[2022-12-29 10:01:53,272] {logging_mixin.py:115} INFO - [2022-12-29 10:01:53,272] {dagbag.py:507} INFO - Filling up the DagBag from /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py
+[2022-12-29 10:01:53,308] {processor.py:651} INFO - DAG(s) dict_keys(['atividade_aula_4']) retrieved from /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py
+[2022-12-29 10:01:53,423] {logging_mixin.py:115} INFO - [2022-12-29 10:01:53,422] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-12-29 10:01:53,488] {logging_mixin.py:115} INFO - [2022-12-29 10:01:53,488] {dag.py:2927} INFO - Setting next_dagrun for atividade_aula_4 to 2022-12-29T00:00:00+00:00, run_after=2022-12-30T00:00:00+00:00
+[2022-12-29 10:01:53,634] {processor.py:161} INFO - Processing /home/alxavier/Documents/airflowalura/dags/atividade_aula_4.py took 0.385 seconds

@@ -1,0 +1,35 @@
+[2022-12-29 09:57:08,229] {processor.py:153} INFO - Started process (PID=21695) to work on /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-29 09:57:08,232] {processor.py:641} INFO - Processing file /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-12-29 09:57:08,234] {logging_mixin.py:115} INFO - [2022-12-29 09:57:08,234] {dagbag.py:507} INFO - Filling up the DagBag from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-29 09:57:08,257] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-29 09:57:08,307] {logging_mixin.py:115} INFO - [2022-12-29 09:57:08,306] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-12-29 09:57:08,373] {logging_mixin.py:115} INFO - [2022-12-29 09:57:08,373] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2022-12-28T12:57:08.373075+00:00, run_after=2022-12-29T12:57:08.373075+00:00
+[2022-12-29 09:57:08,436] {processor.py:161} INFO - Processing /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.226 seconds
+[2022-12-29 09:57:55,060] {processor.py:153} INFO - Started process (PID=21783) to work on /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-29 09:57:55,101] {processor.py:641} INFO - Processing file /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-12-29 09:57:55,103] {logging_mixin.py:115} INFO - [2022-12-29 09:57:55,103] {dagbag.py:507} INFO - Filling up the DagBag from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-29 09:57:55,118] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-29 09:57:55,174] {logging_mixin.py:115} INFO - [2022-12-29 09:57:55,174] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-12-29 09:57:55,215] {logging_mixin.py:115} INFO - [2022-12-29 09:57:55,215] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2022-12-28T12:57:55.214889+00:00, run_after=2022-12-29T12:57:55.214889+00:00
+[2022-12-29 09:57:55,249] {processor.py:161} INFO - Processing /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.194 seconds
+[2022-12-29 09:58:46,497] {processor.py:153} INFO - Started process (PID=21884) to work on /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-29 09:58:46,539] {processor.py:641} INFO - Processing file /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-12-29 09:58:46,540] {logging_mixin.py:115} INFO - [2022-12-29 09:58:46,540] {dagbag.py:507} INFO - Filling up the DagBag from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-29 09:58:46,557] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-29 09:58:46,595] {logging_mixin.py:115} INFO - [2022-12-29 09:58:46,595] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-12-29 09:58:46,644] {logging_mixin.py:115} INFO - [2022-12-29 09:58:46,644] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2022-12-28T12:58:46.643432+00:00, run_after=2022-12-29T12:58:46.643432+00:00
+[2022-12-29 09:58:46,681] {processor.py:161} INFO - Processing /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.197 seconds
+[2022-12-29 09:59:45,897] {processor.py:153} INFO - Started process (PID=21987) to work on /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-29 09:59:45,916] {processor.py:641} INFO - Processing file /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-12-29 09:59:45,918] {logging_mixin.py:115} INFO - [2022-12-29 09:59:45,917] {dagbag.py:507} INFO - Filling up the DagBag from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-29 09:59:46,009] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-29 09:59:46,278] {logging_mixin.py:115} INFO - [2022-12-29 09:59:46,277] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-12-29 09:59:46,412] {logging_mixin.py:115} INFO - [2022-12-29 09:59:46,412] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2022-12-28T12:59:46.411337+00:00, run_after=2022-12-29T12:59:46.411337+00:00
+[2022-12-29 09:59:46,495] {processor.py:161} INFO - Processing /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.614 seconds
+[2022-12-29 10:01:02,867] {processor.py:153} INFO - Started process (PID=22340) to work on /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-29 10:01:02,878] {processor.py:641} INFO - Processing file /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-12-29 10:01:02,880] {logging_mixin.py:115} INFO - [2022-12-29 10:01:02,880] {dagbag.py:507} INFO - Filling up the DagBag from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-29 10:01:02,917] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-29 10:01:02,995] {logging_mixin.py:115} INFO - [2022-12-29 10:01:02,995] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-12-29 10:01:03,140] {logging_mixin.py:115} INFO - [2022-12-29 10:01:03,140] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2022-12-28T13:01:03.139956+00:00, run_after=2022-12-29T13:01:03.139956+00:00
+[2022-12-29 10:01:03,232] {processor.py:161} INFO - Processing /home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.385 seconds

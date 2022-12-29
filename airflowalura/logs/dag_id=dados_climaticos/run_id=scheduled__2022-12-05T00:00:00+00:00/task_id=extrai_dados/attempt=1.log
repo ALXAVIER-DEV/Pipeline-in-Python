@@ -1,0 +1,67 @@
+[2022-12-28 18:30:27,384] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.extrai_dados scheduled__2022-12-05T00:00:00+00:00 [queued]>
+[2022-12-28 18:30:27,402] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.extrai_dados scheduled__2022-12-05T00:00:00+00:00 [queued]>
+[2022-12-28 18:30:27,425] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28 18:30:27,427] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-12-28 18:30:27,427] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28 18:30:27,468] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): extrai_dados> on 2022-12-05 00:00:00+00:00
+[2022-12-28 18:30:27,496] {standard_task_runner.py:52} INFO - Started process 18643 to run task
+[2022-12-28 18:30:27,502] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dados_climaticos', 'extrai_dados', 'scheduled__2022-12-05T00:00:00+00:00', '--job-id', '42', '--raw', '--subdir', 'DAGS_FOLDER/dados_climaticos.py', '--cfg-path', '/tmp/tmpk1kvx3al', '--error-file', '/tmp/tmpzbfvintj']
+[2022-12-28 18:30:27,509] {standard_task_runner.py:80} INFO - Job 42: Subtask extrai_dados
+[2022-12-28 18:30:27,669] {task_command.py:370} INFO - Running <TaskInstance: dados_climaticos.extrai_dados scheduled__2022-12-05T00:00:00+00:00 [running]> on host alxavier-airflow
+[2022-12-28 18:30:27,763] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1451, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1555, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context)
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 2212, in render_templates
+    rendered_task = self.task.render_template_fields(context)
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 1185, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/models/abstractoperator.py", line 344, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/models/abstractoperator.py", line 404, in render_template
+    return {key: self.render_template(value, context, jinja_env) for key, value in value.items()}
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/models/abstractoperator.py", line 404, in <dictcomp>
+    return {key: self.render_template(value, context, jinja_env) for key, value in value.items()}
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/models/abstractoperator.py", line 387, in render_template
+    template = jinja_env.from_string(value)
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1092, in from_string
+    return cls.from_code(self, self.compile(source), gs, None)
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/jinja2/environment.py", line 757, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "<unknown>", line 1, in template
+jinja2.exceptions.TemplateSyntaxError: unexpected char '"' at 29
+[2022-12-28 18:30:27,789] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=dados_climaticos, task_id=extrai_dados, execution_date=20221205T000000, start_date=20221228T213027, end_date=20221228T213027
+[2022-12-28 18:30:27,857] {standard_task_runner.py:92} ERROR - Failed to execute job 42 for task extrai_dados (unexpected char '"' at 29; 18643)
+[2022-12-28 18:30:27,897] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-12-28 18:30:27,941] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-28 18:54:29,841] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.extrai_dados scheduled__2022-12-05T00:00:00+00:00 [queued]>
+[2022-12-28 18:54:29,855] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.extrai_dados scheduled__2022-12-05T00:00:00+00:00 [queued]>
+[2022-12-28 18:54:29,856] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28 18:54:29,856] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-12-28 18:54:29,856] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28 18:54:29,896] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): extrai_dados> on 2022-12-05 00:00:00+00:00
+[2022-12-28 18:54:29,904] {standard_task_runner.py:52} INFO - Started process 21263 to run task
+[2022-12-28 18:54:29,917] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dados_climaticos', 'extrai_dados', 'scheduled__2022-12-05T00:00:00+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/dados_climaticos.py', '--cfg-path', '/tmp/tmpoc7lds1e', '--error-file', '/tmp/tmpmzf3oryr']
+[2022-12-28 18:54:29,922] {standard_task_runner.py:80} INFO - Job 43: Subtask extrai_dados
+[2022-12-28 18:54:30,063] {task_command.py:370} INFO - Running <TaskInstance: dados_climaticos.extrai_dados scheduled__2022-12-05T00:00:00+00:00 [running]> on host alxavier-airflow
+[2022-12-28 18:54:30,216] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=dados_climaticos
+AIRFLOW_CTX_TASK_ID=extrai_dados
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-05T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-05T00:00:00+00:00
+[2022-12-28 18:54:31,208] {python.py:173} INFO - Done. Returned value was: None
+[2022-12-28 18:54:31,256] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=dados_climaticos, task_id=extrai_dados, execution_date=20221205T000000, start_date=20221228T215429, end_date=20221228T215431
+[2022-12-28 18:54:31,298] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-12-28 18:54:31,355] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

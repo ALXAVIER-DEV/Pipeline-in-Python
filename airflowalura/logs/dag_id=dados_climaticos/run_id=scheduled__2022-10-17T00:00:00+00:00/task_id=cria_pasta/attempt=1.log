@@ -1,0 +1,161 @@
+[2022-12-28 17:49:44,159] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.cria_pasta scheduled__2022-10-17T00:00:00+00:00 [queued]>
+[2022-12-28 17:49:44,168] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.cria_pasta scheduled__2022-10-17T00:00:00+00:00 [queued]>
+[2022-12-28 17:49:44,168] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28 17:49:44,168] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-12-28 17:49:44,168] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28 17:49:44,216] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): cria_pasta> on 2022-10-17 00:00:00+00:00
+[2022-12-28 17:49:44,227] {standard_task_runner.py:52} INFO - Started process 14237 to run task
+[2022-12-28 17:49:44,264] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dados_climaticos', 'cria_pasta', 'scheduled__2022-10-17T00:00:00+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/dados_climaticos.py', '--cfg-path', '/tmp/tmpiui13moy', '--error-file', '/tmp/tmpthp83glt']
+[2022-12-28 17:49:44,265] {standard_task_runner.py:80} INFO - Job 19: Subtask cria_pasta
+[2022-12-28 17:49:44,352] {task_command.py:370} INFO - Running <TaskInstance: dados_climaticos.cria_pasta scheduled__2022-10-17T00:00:00+00:00 [running]> on host alxavier-airflow
+[2022-12-28 17:49:44,429] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1451, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1555, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context)
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 2212, in render_templates
+    rendered_task = self.task.render_template_fields(context)
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 1185, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/models/abstractoperator.py", line 344, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/models/abstractoperator.py", line 387, in render_template
+    template = jinja_env.from_string(value)
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1092, in from_string
+    return cls.from_code(self, self.compile(source), gs, None)
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/jinja2/environment.py", line 757, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "<unknown>", line 1, in template
+jinja2.exceptions.TemplateSyntaxError: unexpected end of template, expected ','.
+[2022-12-28 17:49:44,465] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=dados_climaticos, task_id=cria_pasta, execution_date=20221017T000000, start_date=20221228T204944, end_date=20221228T204944
+[2022-12-28 17:49:44,524] {standard_task_runner.py:92} ERROR - Failed to execute job 19 for task cria_pasta (unexpected end of template, expected ','.; 14237)
+[2022-12-28 17:49:44,600] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-12-28 17:49:44,690] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-28 18:14:25,217] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.cria_pasta scheduled__2022-10-17T00:00:00+00:00 [queued]>
+[2022-12-28 18:14:25,227] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.cria_pasta scheduled__2022-10-17T00:00:00+00:00 [queued]>
+[2022-12-28 18:14:25,227] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28 18:14:25,228] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-12-28 18:14:25,228] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28 18:14:25,280] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): cria_pasta> on 2022-10-17 00:00:00+00:00
+[2022-12-28 18:14:25,298] {standard_task_runner.py:52} INFO - Started process 16873 to run task
+[2022-12-28 18:14:25,313] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dados_climaticos', 'cria_pasta', 'scheduled__2022-10-17T00:00:00+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/dados_climaticos.py', '--cfg-path', '/tmp/tmpbrnyuig9', '--error-file', '/tmp/tmp90u8gn45']
+[2022-12-28 18:14:25,314] {standard_task_runner.py:80} INFO - Job 19: Subtask cria_pasta
+[2022-12-28 18:14:25,477] {task_command.py:370} INFO - Running <TaskInstance: dados_climaticos.cria_pasta scheduled__2022-10-17T00:00:00+00:00 [running]> on host alxavier-airflow
+[2022-12-28 18:14:25,579] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1451, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1555, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context)
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 2212, in render_templates
+    rendered_task = self.task.render_template_fields(context)
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 1185, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/models/abstractoperator.py", line 344, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/models/abstractoperator.py", line 387, in render_template
+    template = jinja_env.from_string(value)
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/jinja2/environment.py", line 1092, in from_string
+    return cls.from_code(self, self.compile(source), gs, None)
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/jinja2/environment.py", line 757, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/alxavier/Documents/airflowalura/venv/lib/python3.9/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "<unknown>", line 1, in template
+jinja2.exceptions.TemplateSyntaxError: unexpected end of template, expected ','.
+[2022-12-28 18:14:25,588] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=dados_climaticos, task_id=cria_pasta, execution_date=20221017T000000, start_date=20221228T211425, end_date=20221228T211425
+[2022-12-28 18:14:25,625] {standard_task_runner.py:92} ERROR - Failed to execute job 19 for task cria_pasta (unexpected end of template, expected ','.; 16873)
+[2022-12-28 18:14:25,636] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-12-28 18:14:25,761] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-28 18:29:15,092] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.cria_pasta scheduled__2022-10-17T00:00:00+00:00 [queued]>
+[2022-12-28 18:29:15,105] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.cria_pasta scheduled__2022-10-17T00:00:00+00:00 [queued]>
+[2022-12-28 18:29:15,105] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28 18:29:15,105] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-12-28 18:29:15,105] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28 18:29:15,143] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): cria_pasta> on 2022-10-17 00:00:00+00:00
+[2022-12-28 18:29:15,153] {standard_task_runner.py:52} INFO - Started process 18505 to run task
+[2022-12-28 18:29:15,163] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dados_climaticos', 'cria_pasta', 'scheduled__2022-10-17T00:00:00+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/dados_climaticos.py', '--cfg-path', '/tmp/tmpdhq0wqv9', '--error-file', '/tmp/tmpwe09l1kt']
+[2022-12-28 18:29:15,172] {standard_task_runner.py:80} INFO - Job 26: Subtask cria_pasta
+[2022-12-28 18:29:15,247] {task_command.py:370} INFO - Running <TaskInstance: dados_climaticos.cria_pasta scheduled__2022-10-17T00:00:00+00:00 [running]> on host alxavier-airflow
+[2022-12-28 18:29:15,409] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=dados_climaticos
+AIRFLOW_CTX_TASK_ID=cria_pasta
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-17T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-10-17T00:00:00+00:00
+[2022-12-28 18:29:15,412] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-12-28 18:29:15,414] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'mkdir -p "/home/alxavier/Documents/airflowalura/semana=2022-10-24"']
+[2022-12-28 18:29:15,430] {subprocess.py:85} INFO - Output:
+[2022-12-28 18:29:15,438] {subprocess.py:96} INFO - Command exited with return code 0
+[2022-12-28 18:29:15,499] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=dados_climaticos, task_id=cria_pasta, execution_date=20221017T000000, start_date=20221228T212915, end_date=20221228T212915
+[2022-12-28 18:29:15,585] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-12-28 18:29:15,663] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-12-28 18:45:29,556] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.cria_pasta scheduled__2022-10-17T00:00:00+00:00 [queued]>
+[2022-12-28 18:45:29,594] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.cria_pasta scheduled__2022-10-17T00:00:00+00:00 [queued]>
+[2022-12-28 18:45:29,594] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28 18:45:29,594] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-12-28 18:45:29,594] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28 18:45:29,626] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): cria_pasta> on 2022-10-17 00:00:00+00:00
+[2022-12-28 18:45:29,631] {standard_task_runner.py:52} INFO - Started process 20256 to run task
+[2022-12-28 18:45:29,648] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dados_climaticos', 'cria_pasta', 'scheduled__2022-10-17T00:00:00+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/dados_climaticos.py', '--cfg-path', '/tmp/tmp9f9tjhp8', '--error-file', '/tmp/tmprp_snkp_']
+[2022-12-28 18:45:29,654] {standard_task_runner.py:80} INFO - Job 26: Subtask cria_pasta
+[2022-12-28 18:45:29,779] {task_command.py:370} INFO - Running <TaskInstance: dados_climaticos.cria_pasta scheduled__2022-10-17T00:00:00+00:00 [running]> on host alxavier-airflow
+[2022-12-28 18:45:29,948] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=dados_climaticos
+AIRFLOW_CTX_TASK_ID=cria_pasta
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-17T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-10-17T00:00:00+00:00
+[2022-12-28 18:45:29,950] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-12-28 18:45:29,953] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'mkdir -p "/home/alxavier/Documents/airflowalura/semana=2022-10-24"']
+[2022-12-28 18:45:29,997] {subprocess.py:85} INFO - Output:
+[2022-12-28 18:45:29,998] {subprocess.py:96} INFO - Command exited with return code 0
+[2022-12-28 18:45:30,109] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=dados_climaticos, task_id=cria_pasta, execution_date=20221017T000000, start_date=20221228T214529, end_date=20221228T214530
+[2022-12-28 18:45:30,231] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-12-28 18:45:30,320] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-12-28 18:52:53,883] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.cria_pasta scheduled__2022-10-17T00:00:00+00:00 [queued]>
+[2022-12-28 18:52:53,894] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.cria_pasta scheduled__2022-10-17T00:00:00+00:00 [queued]>
+[2022-12-28 18:52:53,894] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28 18:52:53,894] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-12-28 18:52:53,894] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28 18:52:53,925] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): cria_pasta> on 2022-10-17 00:00:00+00:00
+[2022-12-28 18:52:53,931] {standard_task_runner.py:52} INFO - Started process 21086 to run task
+[2022-12-28 18:52:53,936] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dados_climaticos', 'cria_pasta', 'scheduled__2022-10-17T00:00:00+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/dados_climaticos.py', '--cfg-path', '/tmp/tmpysa05bl9', '--error-file', '/tmp/tmp69f6t3k7']
+[2022-12-28 18:52:53,937] {standard_task_runner.py:80} INFO - Job 26: Subtask cria_pasta
+[2022-12-28 18:52:54,087] {task_command.py:370} INFO - Running <TaskInstance: dados_climaticos.cria_pasta scheduled__2022-10-17T00:00:00+00:00 [running]> on host alxavier-airflow
+[2022-12-28 18:52:54,216] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=dados_climaticos
+AIRFLOW_CTX_TASK_ID=cria_pasta
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-17T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-10-17T00:00:00+00:00
+[2022-12-28 18:52:54,217] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-12-28 18:52:54,222] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'mkdir -p "/home/alxavier/Documents/airflowalura/semana=2022-10-24"']
+[2022-12-28 18:52:54,247] {subprocess.py:85} INFO - Output:
+[2022-12-28 18:52:54,254] {subprocess.py:96} INFO - Command exited with return code 0
+[2022-12-28 18:52:54,300] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=dados_climaticos, task_id=cria_pasta, execution_date=20221017T000000, start_date=20221228T215253, end_date=20221228T215254
+[2022-12-28 18:52:54,353] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-12-28 18:52:54,419] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
